@@ -1,0 +1,56 @@
+/* Write your code here. */
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+.icon {
+  width: 10px;
+  height: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.message {
+  font-size: 10px;
+  flex-grow: 1;
+}
+.primary {
+  display: flex;
+  flex-direction: row;
+  background-color: #0b69ff;
+  color: #ffffff;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.success {
+  display: flex;
+  flex-direction: row;
+  background-color: #2dca73;
+  color: #ffffff;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.warning {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffb800;
+  color: #ffffff;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.danger {
+  display: flex;
+  flex-direction: row;
+  background-color: #ff0b37;
+  color: #ffffff;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.card {
+  width: 80%;
+}
